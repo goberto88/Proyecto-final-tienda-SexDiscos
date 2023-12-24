@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sex Discos Carrito de compras</title>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+    <!-- Encabezado -->
+
+    <!-- <nav class="navbar bg-gradient-to-b from-yellow-300 to-neutral-50 px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-20 flex justify-between items-center sticky top-0 z-50 shadow-md">
+        <div class="logo p-2">
+            <img src="./LogoSexDiscos/sexDisco-logo.png" alt="logo" class="w-full md:w-72">
+        </div>
+
+        <ul class="menu flex items-center space-x-4 text-xl md:text-3xl text-zinc-700">
+            <li>
+                <a href="index.html" class="btn-volver flex flex-col md:flex-row md:items-center">
+                    <button class="btn-volver  transition hover:-translate-y-1 hover:scale-110">
+                        <i class="bi bi-arrow-left-circle"></i>
+                    </button>
+                    <button class="volver ml-2 mt-1 md:mt-0 transition hover:-translate-y-1 hover:scale-110"> Volver</button>
+                </a>
+            </li>
+        </ul>
+        
+        
+
+    </nav> -->
+
+    <nav class="navbar flex items-center justify-between flex-wrap bg-gradient-to-b from-yellow-300 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <img src="./LogoSexDiscos/sexDisco-logo.png" alt="logo" class="w-72">
+        </div>
+        <ul class="menu flex items-center space-x-4 text-xl md:text-3xl text-zinc-700">
+            <li>
+                <a href="index.html" class="btn-volver flex flex-col md:flex-row md:items-center">
+                    <button class="btn-volver  transition hover:-translate-y-1 hover:scale-110">
+                        <i class="bi bi-arrow-left-circle"></i>
+                    </button>
+                    <button class="volver ml-2 mt-1 md:mt-0 transition hover:-translate-y-1 hover:scale-110">
+                        Volver</button>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Contenedor del carrito -->
+
+    <main>
+        <h2 class="titulo text-2xl md:text-4xl font-bold text-center mt-8 md:mt-12 mb-4 md:mb-5">Carrito</h2>
+        <div class="contenedor-compra">
+            <p class="titulo text-2xl md:text-4xl font-bold text-center mt-8 md:mt-12 mb-4 md:mb-5" id="titulo-vacio">No
+                se han agregado productos al carrito <i class="bi bi-emoji-tear"></i></p>
+
+            <div id="contenedor-carrito" class="flex flex-col items-center gap-4 md:gap-6">
+                <!-- Trabajado en JS -->
+            </div>
+
+            <div id="total-carrito" class="total-carrito activado text-center md:text-left">
+                <div
+                    class="accion-pagar mx-4 md:mx-24 flex flex-col md:flex-row items-center justify-end text-zinc-700">
+                    <div class="pagar flex flex-col md:flex-row items-center p-4 uppercase text-primary-text gap-px">
+                        <p class="pr-1"><i class="bi bi-cash-coin text-secondary-text text-red-700 pr-3"></i>Total: </p>
+                        <strong>
+                            <p id="monto-total" class="monto-total text-base md:text-lg"></p>
+                        </strong>
+                    </div>
+                    <button id="comprar"
+                        class="comprar bg-red-700 text-white hover:bg-white hover:text-red-700 font-semibold my-4 md:my-7 py-2 px-4 md:px-6 border border-red-700 hover:border-red-700 rounded-full md:ml-4">Comprar
+                        Ahora</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="bg-white bottom-0 w-full mt-auto">
+        <div class="bg-gradient-to-b from-yellow-300 to-neutral-50 mx-0 px-2 md:px-4 w-full p-2 md:p-4 py-2 md:py-6">
+            <hr class="my-2 md:my-4 border-zinc-700" />
+
+            <div class="sm:flex sm:items-center sm:justify-between mx-2 md:mx-5">
+                <span class="text-base md:text-lg text-zinc-700 sm:text-center">Roberto Rivas A. © 2023</span>
+
+                <div class="flex mt-2 sm:justify-center sm:mt-0 space-x-6 md:space-x-10">
+                    <a href="https://www.linkedin.com/in/roberto-rivas-arteaga-a4a76b108/"
+                        class="text-lg md:text-3xl text-zinc-700 hover:text-gray-900 transition hover:-translate-y-1 hover:scale-110">
+                        <i class="bi bi-linkedin"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/goberto66/"
+                        class="text-lg md:text-3xl text-zinc-700 ms-1 md:ms-2 hover:text-gray-900 transition hover:-translate-y-1 hover:scale-110">
+                        <i class="bi bi-instagram"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+
+                    <a href="https://github.com/goberto88"
+                        class="text-lg md:text-3xl text-zinc-700 ms-1 md:ms-2 hover:text-gray-900 transition hover:-translate-y-1 hover:scale-110">
+                        <i class="bi bi-github"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="./Js/carro.js"></script>
+</body>
+
+</html>

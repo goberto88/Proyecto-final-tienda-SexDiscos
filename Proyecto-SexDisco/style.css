@@ -1,0 +1,329 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --color-primario-claro: #f3f4f6;
+    --color-texto-principal: #424144;
+    --color-texto-segundario: #c50b1b;
+    --color-card-claro: #f5f5f5;
+}
+
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main{
+    min-height: 100vh;
+}
+
+
+/* Encabezado */
+
+/* .logo img {
+    width: 300px;
+    padding: 8px;
+} */
+
+/* .menu-btn {
+    color: var(--color-texto-principal);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+} */
+
+/* .navbar {
+    height:8rem ;
+    padding: 15px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: var(--color-primario-claro);
+    box-shadow: 0 0 14px rgb(0, 0, 0, 0.3);
+}  */
+
+
+/* .navbar .menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navbar .menu li .boton-carrito {
+    position: relative;
+    margin-left: 5rem;
+}
+
+.navbar .menu li .boton-carrito .numerito {
+    background-color: var(--color-texto-segundario);
+    font-size: 13px;
+    color: var(--color-card-claro);
+    padding: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%; 
+    left: 50%;
+    transform: translate(30%, -90%);
+}
+
+.navbar .menu li button {
+    display: block;
+    margin-left: 0px;
+    color: var(--color-texto-principal);
+    border-bottom: 4px solid transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.navbar .menu li a i {
+    color: var(--color-texto-segundario);
+    font-size: 30px;
+} */
+
+/* Contenedor */
+
+/* .contenedor {
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .secc-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secc-text p {
+    font-size: 20px;
+    margin-top: 20px;
+} */
+
+/* #todos {
+    width: 10rem;
+    background-color: var(--color-primario-claro);
+    font-size: 13px;
+    color: var(--color-texto-segundario);
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid var(--color-texto-segundario);
+    border-radius: 1.5rem;
+} */
+
+/* #todos:hover {
+    cursor: pointer;
+    background-color: var(--color-texto-segundario);
+    color: var(--color-card-claro);
+} */
+
+/* .imagen-seccion {
+    width: 60%;
+} */
+
+/* .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} */
+
+/* Productos */
+.secc-card {
+    padding: 25px;
+}
+
+.producto .card {
+    width: 310px;
+    background-color: var(--color-card-claro);
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.producto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 0;
+    padding-left: 15px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.producto .card img {
+    height: 250px;
+    width: 100%;
+}
+
+.producto .card .desc {
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.producto .card .banda {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--color-texto-principal);
+    padding: 0 10px;
+}
+
+.producto .card .caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.producto .card .caja .precio {
+    color: var(--color-texto-segundario);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.producto .card .caja .btn {
+    font-size: 13px;
+    color: var(--color-texto-segundario);
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid var(--color-texto-segundario);
+    border-radius: 20px;
+}
+
+.producto .card .caja .btn:hover {
+    cursor: pointer;
+    background-color: var(--color-texto-segundario);
+    color: var(--color-card-claro);
+}
+
+/* Carrito */
+
+/*
+.contenedor-compra {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.carrito-compras {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.carrito-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primario-claro);
+    color: var(--color-texto-principal);
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    gap: 20px
+}
+
+.carrito-img {
+    max-width: 5rem;
+    margin-right: 1rem;
+}
+
+.carrito-desc,
+.carrito-cantidad,
+.carrito-precio,
+.carrito-subtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.carrito-borrar {
+    border: 0;
+    background-color: transparent;
+    color: var(--color-texto-segundario);
+    font-weight: bold;
+    cursor: pointer;
+} 
+  */
+
+/* .total-carrito{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ .accion-pagar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin-bottom: 5rem;
+}
+
+.pagar {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    color: var(--color-texto-principal);
+    text-transform: uppercase;
+    gap: 1rem;
+}
+
+.monto-total{
+    font-size: 20px;
+}
+
+.red-icon {
+    color: var(--color-texto-segundario);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.accion-pagar .comprar {
+    border: 0;
+    background-color: var(--color-texto-segundario);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--color-card-claro);
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+.activado {
+    display: none;
+}
+
+

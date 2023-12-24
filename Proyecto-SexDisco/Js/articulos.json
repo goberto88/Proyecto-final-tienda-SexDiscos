@@ -1,0 +1,274 @@
+[
+  {
+    "id": "v1",
+    "imagen": "./vinilos/vinil (1).jpg",
+    "banda": "Cannibal Corpse",
+    "descripcion": "Gore Obsessed",
+    "categoria": "vinilos",
+    "precio": 15000
+  },
+  {
+    "id": "v2",
+    "imagen": "./vinilos/vinil (2).jpg",
+    "banda": "Darkthrone",
+    "descripcion": "Transilvanian Hunger",
+    "categoria": "vinilos",
+    "precio": 13000
+  },
+  {
+    "id": "v3",
+    "imagen": "./vinilos/vinil (3).jpg",
+    "banda": "Dismember",
+    "descripcion": "Like an Ever Flowing Stream",
+    "categoria": "vinilos",
+    "precio": 15000
+  },
+  {
+    "id": "v4",
+    "imagen": "./vinilos/vinil (4).jpg",
+    "banda": "Dismember",
+    "descripcion": "Pieces",
+    "categoria": "vinilos",
+    "precio": 10000
+  },
+  {
+    "id": "v5",
+    "imagen": "./vinilos/vinil (5).jpg",
+    "banda": "Electric Wizard",
+    "descripcion": "Come my Fanatics...",
+    "categoria": "vinilos",
+    "precio": 18000
+  },
+  {
+    "id": "v6",
+    "imagen": "./vinilos/vinil (6).jpg",
+    "banda": "Iron Maiden",
+    "descripcion": "The Number Of The Beast - Delux",
+    "categoria": "vinilos",
+    "precio": 32000
+  },
+  {
+    "id": "v7",
+    "imagen": "./vinilos/vinil (7).jpg",
+    "banda": "King Diamond",
+    "descripcion": "Abigail",
+    "categoria": "vinilo",
+    "precio": 13000
+  },
+  {
+    "id": "v8",
+    "imagen": "./vinilos/vinil (8).jpg",
+    "banda": "King Diamond",
+    "descripcion": "Fatal Portrait",
+    "categoria": "vinilos",
+    "precio": 13000
+  },
+  {
+    "id": "v9",
+    "imagen": "./vinilos/vinil (9).jpg",
+    "banda": "Metallica",
+    "descripcion": "Master of Puppets",
+    "categoria": "vinilos",
+    "precio": 15000
+  },
+  {
+    "id": "v10",
+    "imagen": "./vinilos/vinil (10).jpg",
+    "banda": "Motorhead",
+    "descripcion": "Ace of Spades - Delux",
+    "categoria": "vinilos",
+    "precio": 30000
+  },
+  {
+    "id": "v11",
+    "imagen": "./vinilos/vinil (11).jpg",
+    "banda": "Ulver",
+    "descripcion": "the norwegian national opera",
+    "categoria": "vinilos",
+    "precio": 15000
+  },
+  {
+    "id": "v12",
+    "imagen": "./vinilos/vinil (12).jpg",
+    "banda": "Venom",
+    "descripcion": "Welcome to hell",
+    "categoria": "vinilos",
+    "precio": 18000
+  },
+  {
+    "id": "ca1",
+    "imagen": "./cassette/cassette (1).jpg",
+    "banda": "Bathory",
+    "descripcion": "Bathory",
+    "categoria": "cassettes",
+    "precio": 8000
+  },
+  {
+    "id": "ca2",
+    "imagen": "./cassette/cassette (2).jpg",
+    "banda": "Bathory",
+    "descripcion": "Under the Sign of the Black Mark",
+    "categoria": "cassettes",
+    "precio": 8000
+  },
+  {
+    "id": "ca3",
+    "imagen": "./cassette/cassette (3).jpg",
+    "banda": "Cynic",
+    "descripcion": "Ascension Codes",
+    "categoria": "cassettes",
+    "precio": 10000
+  },
+  {
+    "id": "ca4",
+    "imagen": "./cassette/cassette (4).jpg",
+    "banda": "Death",
+    "descripcion": "The Sound of Perseverance",
+    "categoria": "cassettes",
+    "precio": 10000
+  },
+  {
+    "id": "ca5",
+    "imagen": "./cassette/cassette (5).jpg",
+    "banda": "Death",
+    "descripcion": "Spiritual Healing",
+    "categoria": "cassettes",
+    "precio": 10000
+  },
+  {
+    "id": "ca6",
+    "imagen": "./cassette/cassette (6).jpg",
+    "banda": "Mayhem",
+    "descripcion": "Deathcrush",
+    "categoria": "cassettes",
+    "precio": 9000
+  },
+  {
+    "id": "ca7",
+    "imagen": "./cassette/cassette (7).jpg",
+    "banda": "Napalm Death",
+    "descripcion": "Box-Set",
+    "categoria": "cassettes",
+    "precio": 29000
+  },
+  {
+    "id": "ca8",
+    "imagen": "./cassette/cassette (8).jpg",
+    "banda": "Onslaught",
+    "descripcion": "Power From Hell",
+    "categoria": "cassettes",
+    "precio": 8000
+  },
+  {
+    "id": "ca9",
+    "imagen": "./cassette/cassette (9).jpg",
+    "banda": "Slayer",
+    "descripcion": "Hell Awaits",
+    "categoria": "cassettes",
+    "precio": 10000
+  },
+  {
+    "id": "cd1",
+    "imagen": "./cds/cd (1).jpg",
+    "banda": "Dismember",
+    "descripcion": "Indecent & Obscene",
+    "categoria": "cds",
+    "precio": 10000
+  },
+  {
+    "id": "cd2",
+    "imagen": "./cds/cd (2).jpg",
+    "banda": "Amenra",
+    "descripcion": "Mass I",
+    "categoria": "cds",
+    "precio": 10000
+  },
+  {
+    "id": "cd3",
+    "imagen": "./cds/cd (3).jpg",
+    "banda": "Kylesa",
+    "descripcion": "Exhausting Fire",
+    "categoria": "cds",
+    "precio": 9000
+  },
+  {
+    "id": "cd4",
+    "imagen": "./cds/cd (4).jpg",
+    "banda": "Nuclear Assault",
+    "descripcion": "Game Over",
+    "categoria": "cds",
+    "precio": 12000
+  },
+  {
+    "id": "cd5",
+    "imagen": "./cds/cd (5).jpg",
+    "banda": "Dismember",
+    "descripcion": "Where Ironcrosses Grow",
+    "categoria": "cds",
+    "precio": 9000
+  },
+  {
+    "id": "po1",
+    "imagen": "./camisetas/camiseta (1).jpg",
+    "banda": "Deicide",
+    "descripcion": "Deicide",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po2",
+    "imagen": "./camisetas/camiseta (2).jpg",
+    "banda": "Baroness",
+    "descripcion": "Flower Face",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po3",
+    "imagen": "./camisetas/camiseta (3).jpg",
+    "banda": "Led Zeppelin",
+    "descripcion": "1977",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po4",
+    "imagen": "./camisetas/camiseta (4).jpg",
+    "banda": "Mastodon",
+    "descripcion": "Skull & Beard",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po5",
+    "imagen": "./camisetas/camiseta (5).jpg",
+    "banda": "Black Sabbath",
+    "descripcion": "Vol-4",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po6",
+    "imagen": "./camisetas/camiseta (6).jpg",
+    "banda": "Iron Maiden",
+    "descripcion": "The Trooper",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po7",
+    "imagen": "./camisetas/camiseta (7).jpg",
+    "banda": "Slayer",
+    "descripcion": "Reign in Blood",
+    "categoria": "camisetas",
+    "precio": "15000"
+  },
+  {
+    "id": "po8",
+    "imagen": "./camisetas/camiseta (8).jpg",
+    "banda": "Misfits",
+    "descripcion": "Classic Logo",
+    "categoria": "camisetas",
+    "precio": "15000"
+  }
+]
