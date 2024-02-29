@@ -1,4 +1,4 @@
-##### Proyecto ecommerce (Sex Discos)
+## Proyecto ecommerce (Sex Discos)
 
 ![](https://github.com/goberto88/Proyecto-final-tienda-SexDiscos/blob/main/Principal.png)
 
